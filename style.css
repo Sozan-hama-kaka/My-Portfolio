@@ -190,6 +190,16 @@ margin-bottom: 1rem;
     gap: 1rem;
 }
 
+
+#profile .scroll-up{
+
+    /* display: none; */
+    position: fixed;
+    bottom: 8px;
+    right: 80px;
+
+
+}
 /* Icons */
 
 .icon{
@@ -391,17 +401,18 @@ aricle .icon{
 
 footer{
 
-    height: 24vh;
-    margin-top: 0.7rem;
+    height: 25vh;
     background-color: rgb(163, 163, 163);
 
 }
-
 
 footer a:hover{
     color: white;
 }
 footer p{
-    text-align: center;
+    /* text-align: center; */
     color: white;
+    /* margin-bottom: 5px; */
+    text-align: center;
 }
+
