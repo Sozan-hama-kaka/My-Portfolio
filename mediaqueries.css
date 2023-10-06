@@ -6,6 +6,9 @@
     .about-containers{
         flex-wrap: wrap;
     }
+    #profile .scroll-up{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -20,7 +23,9 @@
         margin-top: 2rem;
         
     }
-
+    #profile .scroll-up{
+        display: none;
+    }
     #profile, .section-container{
         display: block;
     }
